@@ -1,5 +1,5 @@
 Cluster analysis - an example of unsupervised learning
-========================================================
+=======================================================
 
 We have a lot of data and we want to reduce it down to a more manageable representation. A histogram is a type of data reduction. Often reduction boils down to putting similar things together into buckets (similar values end up in same bin in a histogram). Market segmentation models are a good example. Often, the number and "name" of the buckets isn't really even known. Part of the mining process is to discover interesting buckets. One of the most well known techniques for this is called *cluster analysis*. It's a multivariate statistical technique that's been around for quite some time. We want to take individual data points and put them into clusters such that things within a single cluster are similar, but the clusters themselves are distinct from each other. Clustering pops in numerous fields such as biology (taxanomies of living creatures), medicine (disease variant identification), information retrieval (clusters of similar web pages), pattern recognition (classifying objects in photos) and business (market segmentation being the classic use case).
 
